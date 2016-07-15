@@ -1,0 +1,22 @@
+{
+  "name": "mongodbupdater",
+  "version": "0.0.1",
+  "description": "Allows to see what changes would be caused by the mongoDB update operations on different document using various operators",
+  "main": "lib",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mongoDB",
+    "update",
+    "preupdate"
+  ],
+  "author": "Arham Chopra",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
+}
